@@ -1,0 +1,95 @@
+body{
+    background: #fff;
+}
+
+#sidebar {
+	position: fixed;
+	max-width: 150px;
+	width: 100%;
+	background: #0d28a6;
+	top: 0;
+	left: 0;
+	height: 100%;
+	overflow-y: auto;
+	scrollbar-width: none;
+	transition: all .3s ease;
+	z-index: 200;
+}
+
+nav {
+	background: var(--light);
+	height: auto;
+	padding: 0 20px;
+	display: flex;
+	align-items: center;
+	grid-gap: 28px;
+	position: sticky;
+	top: 0;
+	left: 0;
+	z-index: 100;
+}
+
+nav form {
+        max-width: 400px;
+        width: 174px;
+        margin-right: auto;
+        margin-left: 900px;
+        margin-top: auto;
+    }
+
+nav .group {
+    margin-top: auto;
+} 
+    
+nav .profile {
+	margin-top: auto;
+}
+
+nav .profile img {
+	width: 36px;
+	height: 36px;
+	border-radius: 50%;
+	object-fit: cover;
+	cursor: pointer;
+	margin-right: 70px;
+
+}
+main {
+	width: 100%;
+	padding: 24px 20px 20px 20px;
+	margin-right: 900px;
+
+}
+main .container {
+	display: flex;
+	flex-direction: row;
+	top: 10px;
+}
+
+main .dash1 {
+	font-size: 14px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 20px;
+	margin-top: 30px;
+	padding-left: 12px;
+
+}
+
+
+main .dash2 {
+	font-size: 14px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 20px;
+	margin-top: 30px;
+	padding-left: 12px;
+
+}
+
+main .dashboard {
+	display: flex;
+	grid-gap: 6px;
+	padding-left: 12px;
+	margin-right: 12px;
+}
